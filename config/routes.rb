@@ -4,4 +4,6 @@ ActionController::Routing::Routes.draw do |map|
 
   map.root :controller => :items
 
+  SprocketsApplication.routes(map)
+
 end

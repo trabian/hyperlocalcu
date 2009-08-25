@@ -1,0 +1,2 @@
+haml-edge --version '>= 2.1.21'
+chriseppstein-compass --version '>= 0.6.13'

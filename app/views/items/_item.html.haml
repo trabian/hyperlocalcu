@@ -1,1 +1,4 @@
-= item.name
+%tr
+  %th= item.name
+  %td.date= formatted_date(item.posted_at)
+  %td.amount= number_with_precision(item.amount, 2)
