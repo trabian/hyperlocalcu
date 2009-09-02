@@ -18,7 +18,7 @@ $(function() {
         border: {
           width: 5,
           radius: 2,
-          color: '#ddd'
+          color: '#ccc'
         },
         tip: 'topLeft',
         name: 'light'
