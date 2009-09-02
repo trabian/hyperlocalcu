@@ -697,12 +697,15 @@ textarea { width: 390px; height: 250px; }
 /* line 11, ../../../app/stylesheets/_items.sass */
 #items th, #items td { font-size: 1.2em; padding: 5px 5px; color: #3e4d80; width: 20%; }
 /* line 16, ../../../app/stylesheets/_items.sass */
-#items th { font-weight: normal; overflow: hidden; width: 55%; }
-/* line 21, ../../../app/stylesheets/_items.sass */
+#items th { font-weight: normal; width: 55%; }
+/* line 20, ../../../app/stylesheets/_items.sass */
 #items td.amount { text-align: right; }
-/* line 23, ../../../app/stylesheets/_items.sass */
+/* line 22, ../../../app/stylesheets/_items.sass */
 #items td.amount .dollar { font-size: 0.7em; margin: 0 1px 0 4px; position: relative; top: -3px; }
-/* line 28, ../../../app/stylesheets/_items.sass */
+/* line 27, ../../../app/stylesheets/_items.sass */
 #items td.amount .sign { font-size: 1.1em; }
-/* line 31, ../../../app/stylesheets/_items.sass */
+/* line 30, ../../../app/stylesheets/_items.sass */
 #items td.date { font-size: 1em; text-align: center; color: #999999; }
+
+/* line 36, ../../../app/stylesheets/_items.sass */
+.qtip-content pre { margin: 0; }

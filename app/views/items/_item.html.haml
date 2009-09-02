@@ -1,4 +1,4 @@
 %tr
-  %th= item.name
+  %th{"data-tooltip" => item.name}= truncate(item.name, 42)
   %td.date= formatted_date(item.posted_at)
   %td.amount= number_with_precision(item.amount, 2)
