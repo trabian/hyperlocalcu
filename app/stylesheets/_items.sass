@@ -6,31 +6,35 @@
   height: 448px
   border= "1px" "solid" !outline_color
   padding: 0 5px
-  tr.alt
-    background= !table_color_alt
-  th, td
-    font-size: 1.2em
-    padding: 5px 5px
-    color = !item_color
-    width: 20%
-  th
-    font-weight: normal
-    width: 55%
-  td
-    &.amount
-      text-align: right
-      .dollar
-        font-size: 0.7em
-        margin: 0 1px 0 4px
-        position: relative
-        top: -3px
-      .sign
-        font-size: 1.1em
+  position: relative
+  table
+    width: 620px
+    border-collapse: collapse
+    tr.alt
+      background= !table_color_alt
+    th, td
+      font-size: 1.2em
+      padding: 5px 5px
+      color = !item_color
+      width: 20%
+    th
+      font-weight: normal
+      width: 55%
+    td
+      &.amount
+        text-align: right
+        .dollar
+          font-size: 0.7em
+          margin: 0 1px 0 4px
+          position: relative
+          top: -3px
+        .sign
+          font-size: 1.1em
         
-    &.date
-      font-size: 1em
-      text-align: center
-      color= !subtle_color
+      &.date
+        font-size: 1em
+        text-align: center
+        color= !subtle_color
 
 .qtip-content
   pre

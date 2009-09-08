@@ -683,29 +683,31 @@ textarea { width: 390px; height: 250px; }
 /* line 1, ../../../app/stylesheets/_banner.sass */
 #banner { background: #394d7e; color: white; padding: 1.2em 0; margin: 0 0 10px; }
 /* line 6, ../../../app/stylesheets/_banner.sass */
-#banner h1 { font-size: 1.9em; font-family: Trebuchet MS, serif; color: white; margin: 0; line-height: 1em; background: url(/images/logo.png) no-repeat left 50%; padding: 3px 0 3px 50px; }
-/* line 14, ../../../app/stylesheets/_banner.sass */
+#banner h1 { font-size: 1.9em; font-family: Trebuchet MS, serif; color: white; margin: 0; line-height: 1em; background: url(/images/logo.png) no-repeat left 50%; padding: 3px 0 3px 50px; text-align: left; }
+/* line 15, ../../../app/stylesheets/_banner.sass */
 #banner h1 em { color: #e5e5e5; font-size: 11px; font-style: normal; margin-left: 0.5em; }
 
 /* line 1, ../../../app/stylesheets/_right.sass */
 #right { min-height: 450px; height: auto !important; height: 450px; background: #e9e9e9; }
 
 /* line 4, ../../../app/stylesheets/_items.sass */
-#items { overflow: auto; height: 448px; border: 1px solid #dddddd; padding: 0 5px; }
-/* line 9, ../../../app/stylesheets/_items.sass */
-#items tr.alt { background: #ebeef7; }
-/* line 11, ../../../app/stylesheets/_items.sass */
-#items th, #items td { font-size: 1.2em; padding: 5px 5px; color: #3e4d80; width: 20%; }
-/* line 16, ../../../app/stylesheets/_items.sass */
-#items th { font-weight: normal; width: 55%; }
+#items { overflow: auto; height: 448px; border: 1px solid #dddddd; padding: 0 5px; position: relative; }
+/* line 10, ../../../app/stylesheets/_items.sass */
+#items table { width: 620px; border-collapse: collapse; }
+/* line 13, ../../../app/stylesheets/_items.sass */
+#items table tr.alt { background: #dadde6; }
+/* line 15, ../../../app/stylesheets/_items.sass */
+#items table th, #items table td { font-size: 1.2em; padding: 5px 5px; color: #3e4d80; width: 20%; }
 /* line 20, ../../../app/stylesheets/_items.sass */
-#items td.amount { text-align: right; }
-/* line 22, ../../../app/stylesheets/_items.sass */
-#items td.amount .dollar { font-size: 0.7em; margin: 0 1px 0 4px; position: relative; top: -3px; }
-/* line 27, ../../../app/stylesheets/_items.sass */
-#items td.amount .sign { font-size: 1.1em; }
-/* line 30, ../../../app/stylesheets/_items.sass */
-#items td.date { font-size: 1em; text-align: center; color: #999999; }
+#items table th { font-weight: normal; width: 55%; }
+/* line 24, ../../../app/stylesheets/_items.sass */
+#items table td.amount { text-align: right; }
+/* line 26, ../../../app/stylesheets/_items.sass */
+#items table td.amount .dollar { font-size: 0.7em; margin: 0 1px 0 4px; position: relative; top: -3px; }
+/* line 31, ../../../app/stylesheets/_items.sass */
+#items table td.amount .sign { font-size: 1.1em; }
+/* line 34, ../../../app/stylesheets/_items.sass */
+#items table td.date { font-size: 1em; text-align: center; color: #999999; }
 
-/* line 36, ../../../app/stylesheets/_items.sass */
+/* line 40, ../../../app/stylesheets/_items.sass */
 .qtip-content pre { margin: 0; }
