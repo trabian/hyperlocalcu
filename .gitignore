@@ -12,3 +12,11 @@ public/system/*
 tmp/metric_fu/*
 tmp/sent_mails/*
 tmp/restart.txt
+vendor/gems/gems
+vendor/gems/specifications
+vendor/gems/doc
+vendor/gems/environment.rb
+vendor/bundler_gems/gems
+vendor/bundler_gems/specifications
+vendor/bundler_gems/doc
+vendor/bundler_gems/environment.rb
